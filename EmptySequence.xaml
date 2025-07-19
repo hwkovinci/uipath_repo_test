@@ -89,7 +89,7 @@
           <InArgument x:TypeArguments="x:String">[String.Empty]</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:GetRobotCredential Password="{x:Null}" TimeoutMS="{x:Null}" AssetName="KNOX_LOGIN" CacheStrategy="None" DisplayName="Get Credential" FolderPath="SamsungDS/Common/SharedGroupTest" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Username="[out_username]" />
+      <ui:GetRobotCredential Password="{x:Null}" TimeoutMS="{x:Null}" AssetName="KNOX_LOGIN" CacheStrategy="None" DisplayName="Get Credential" FolderPath="SamsungDS/runtime-credentials/hyunwoo17-ko" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Username="[out_username]" />
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;조회 사용자 ID &gt;&gt;&quot; + out_username]" />
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[ProcessName + &quot; &gt;&gt; 종료&quot;]" />
     </Sequence>
